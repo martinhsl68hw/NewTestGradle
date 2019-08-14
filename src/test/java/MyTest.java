@@ -12,7 +12,7 @@ public class MyTest {
         MainC.print(new PrintStream(out));
         String s = out.toString();
 
-        Assert.assertEquals("Hello, World!\n\r", s);
+        Assert.assertEquals("Hello, World!\n", s);
     }
     @Test
     public void numFunctionTests() throws Exception {
