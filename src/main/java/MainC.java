@@ -7,7 +7,7 @@ public class MainC {
     }
 
     public static void print(PrintStream out) {
-        out.println("Hello, World!");
+        out.print("Hello, World!");
     }
     public int getNcubed(int N){ return N*N*N;}
 }
